@@ -2,8 +2,8 @@ package ch.teko.prg.tag01.solution;
 
 public class Pkw {
     //Attribute
-    private String marke;
-    private String modell;
+    public String marke;
+    public String modell;
     private int ps;
 
     //Konstruktor(en)
@@ -37,4 +37,11 @@ public class Pkw {
     public void setPs(int ps) {
         this.ps = ps;
     }
+
+    public static void main(String[] args) {
+        Pkw auto1 = new Pkw("Mercedes", "C-Klasse", 180);
+        auto1.setPs(200);
+        System.out.println(auto1.getPs());
+    }
+
 }
