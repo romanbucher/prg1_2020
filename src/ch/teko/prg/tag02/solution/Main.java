@@ -6,7 +6,7 @@ public class Main {
         Book book1 = new Book("Herr der Ringe Teil 1", "J.R.R. Tolkien", 20.5, 2003);
         System.out.printf("%s%n%s%n%f%n%d%n", book1.getTitel(), book1.getAutor(), book1.getPreis(), book1.getKaufjahr());
 
-        System.out.println("");
+        System.out.println("\n");
 
         //ue_oop_02_01 Aufgabe 3
         Position pos1 = new Position();
