@@ -13,7 +13,6 @@ public class Adresse {
         this.nummer = nummer;
         this.plz = plz;
         this.wohnort = wohnort;
-        //return this;
     }
 
     //Methoden
