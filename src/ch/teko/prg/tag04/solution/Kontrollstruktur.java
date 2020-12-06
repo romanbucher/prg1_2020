@@ -32,7 +32,7 @@ public class Kontrollstruktur {
             price = 0.0;
         } else if (alter <= 12) {
             price = 5.0;
-        } else if (alter <= 18) {
+        } else if (alter < 18) {
             price = 10.0;
         } else if (alter < 65) {
             price = 15.0;
